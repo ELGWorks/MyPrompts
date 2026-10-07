@@ -41,5 +41,16 @@ if (site) {
   if (!sessionStorage.getItem(FLAG)) {
     sessionStorage.setItem(FLAG, '1')
     showBanner(site.name)
+
+    // Tell the service worker so it can raise a notification too.
+    // Safe to skip outside the installed extension (e.g. vite dev).
+    try {
+      chrome.runtime?.sendMessage({
+        type: 'AI_SITE_DETECTED',
+        site: site.name,
+      })
+    } catch {
+      // no extension context available
+    }
   }
 }
