@@ -94,4 +94,4 @@ The extension can also be used in **Google Chrome by manually importing/loading 
 
 ## Credits
 
-<p>Gadget icons created by <a href="https://www.flaticon.com/authors/nikita-golubev" title="gadget icons">Nikita Golubev - Flaticon</a></p>
+<p>Gadget icon created by <a href="https://www.flaticon.com/authors/nikita-golubev" title="gadget icons">Nikita Golubev - Flaticon</a></p>
