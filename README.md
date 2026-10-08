@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+    <img src="demo/demo2.png" alt="MyPrompts Preview" width="200"/>
   <b>A browser extension for saving and reusing AI prompts.</b>
 </p>
 
